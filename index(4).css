@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    background-color: #387774;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.75'%3E%3Ccircle fill='%23387774' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%232f5e5c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23264745' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%231c302f' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23131c1b' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(248, 130, 20);
+    border: solid .5rem rgb(22, 127, 247);
+    width: 22rem;
+    height: 18rem;
+    animation-name: dance;
+    animation-iteration-count: infinite;
+    animation-duration: 4.7s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+input {
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    font-size: 3rem;
+    background-color: black;
+    color: rgb(22, 127, 247);
+    border: solid white .3rem;
+    font-family: font;
+}
+
+#display {
+    width: fit-content;
+    background-color: #5c67c7;
+    border: white solid .3rem;
+    color: black;
+}
+
+#times {
+    font-size: 4rem;
+    color: rgb(22, 197, 22);
+    background-color: black;
+    border: solid white .3rem;
+}
+
+#minus {
+    font-size: 6rem;
+    color: rgb(22, 197, 22);
+    background-color: black;
+    border: solid white .3rem;
+}
+
+#plus {
+    font-size: 5rem;
+    color: rgb(22, 197, 22);
+    background-color: black;
+    border: solid white .3rem;
+}
+
+#divide {
+    font-size: 4rem;
+    color: rgb(22, 197, 22);
+    background-color: black;
+    border: solid white .3rem;
+}
+
+#clear {
+    color: rgb(248, 20, 20);
+    background-color: black;
+    border: solid white .3rem;
+}
+
+#equals {
+    color: rgb(248, 130, 20);
+    background-color: black;
+    border: solid white .3rem;
+    font-size: 4rem;
+}
+
+#bottom {
+    text-align: center;
+    width: fit-content;
+    background-color: #5c67c7;
+    border: rgb(248, 130, 20) solid .3rem;
+    color: white;
+    border: solid white .3rem;
+    height: 4rem;
+}
+
+@font-face {
+    src: url('fonts/pocket_calcuatlor_tt.ttf');
+    font-family: font;
+}
+
+#one:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#two:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#three:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#four:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#five:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#six:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#seven:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#eight:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#nine:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#plus:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#minus:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#times:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#divide:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#zero:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#equals:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#clear:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+@keyframes dance{
+    0% {
+        transform: translate(.4rem, .4rem) rotate(0deg);
+    }
+    10% {
+        transform: translate(-.4rem, -.5rem);
+    }
+    20% { 
+        transform: translate(-.6rem, 0rem) rotate(1deg); 
+    }
+    30% { 
+        transform: translate(.6rem, .5rem) rotate(0deg); 
+    }
+    40% { 
+        transform: translate(.4rem, -.4rem) rotate(1deg); 
+    }
+    50% { 
+        transform: translate(-.4rem, .5rem) rotate(-1deg); 
+    }
+    60% { 
+        transform: translate(-.4rem, .5rem) rotate(0deg); 
+    }
+    70% { 
+        transform: translate(.4rem, .5rem) rotate(-1deg); 
+    }
+    80% { 
+        transform: translate(-.4rem, -.4rem) rotate(1deg); 
+    }
+    90% { 
+        transform: translate(.4rem, .5rem) rotate(0deg); 
+    }
+    100% { 
+        transform: translate(.4rem, -.5rem) rotate(-1deg)
+    }
+}
+
+#Groover {
+    width: 0;
+    display: none;
+}
+
+#b1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 127, 247);
+    color:  rgb(248, 130, 20);
+    font-size: 2.5rem;
+    font-family: font;
+    animation-name: wiggle;
+    animation-iteration-count: infinite;
+    animation-duration: 4.7s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+@keyframes wiggle{
+    0% { 
+        transform: translate(-.4rem, .5rem) rotate(360deg); 
+    }
+    10% { 
+        transform: translate(-.4rem, .5rem) rotate(0deg); 
+    }
+    20% { 
+        transform: translate(.4rem, .5rem) rotate(-1deg); 
+    }
+    30% { 
+        transform: translate(-.4rem, -.4rem) rotate(1deg); 
+    }
+    40% { 
+        transform: translate(.4rem, .5rem) rotate(0deg); 
+    }
+    50% { 
+        transform: translate(.4rem, -.5rem) rotate(-1deg);
+    }
+    60% {
+        transform: translate(.4rem, .4rem) rotate(0deg);
+    }
+    70% {
+        transform: translate(-.4rem, -.5rem);
+    }
+    80% { 
+        transform: translate(-.6rem, 0rem) rotate(1deg); 
+    }
+    90% { 
+        transform: translate(.6rem, .5rem) rotate(0deg); 
+    }
+    100% { 
+        transform: translate(.4rem, -.5rem) rotate(-360deg); 
+    }
+    }

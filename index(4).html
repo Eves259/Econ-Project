@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index(4).css">
+</head>
+<body>
+
+    <form name="calculator">
+
+    <br><br>
+    
+    <table>
+
+    <tr>
+    <td colspan="5"><input type="text" name="display" id="display" disabled></td>
+    </tr>
+
+    <tr>
+    <td><input type="button" class="number" name="one" id="one" value="1" onclick="calculator.display.value += '1'"></td>
+
+    <td><input type="button" class="number" name="two" id="two" value="2" onclick="calculator.display.value += '2'"></td>
+
+    <td><input type="button" class="number" name="three" id="three" value="3" onclick="calculator.display.value += '3'"></td>
+
+    <td><input type="button" class="operator" name="plus" value="+" id="plus" onclick="calculator.display.value += '+'"></td>
+    </tr>
+
+    <tr>
+    <td><input type="button" class="number" name="four" id="four" value="4" onclick="calculator.display.value += '4'"></td>
+
+    <td><input type="button" class="number" name="five" id="five" value="5" onclick="calculator.display.value += '5'"></td>
+
+    <td><input type="button" class="number" name="six" id="six" value="6" onclick="calculator.display.value += '6'"></td>
+
+    <td><input type="button" class="operator" name="minus" value="-" id="minus" onclick="calculator.display.value += '-'"></td>
+    </tr>
+
+    <tr>
+    <td><input type="button" class="number" name="seven" id="seven" value="7" onclick="calculator.display.value += '7'"></td>
+
+    <td><input type="button" class="number" name="eight" id="eight" value="8" onclick="calculator.display.value += '8'"></td>
+
+    <td><input type="button" class="number" name="nine" id="nine" value="9" onclick="calculator.display.value += '9'"></td>
+
+    <td><input type="button" class="operator" name="times" value="x" id="times" onclick="calculator.display.value += '*'"></td>
+    </tr>
+
+    <tr>
+    <td><input type="button" id="clear" name="clear" value="clear" onclick="calculator.display.value = ''"></td>
+
+    <td><input type="button" class="number" name="0" id="zero" value="0" onclick="calculator.display.value += '0'"></td>
+
+    <td><input type="button" name="equals" value="=" id="equals" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+
+    <td><input type="button" class="operator" name="divide" value="/" id="divide" onclick="calculator.display.value += '/'"></td>
+    </tr>
+
+    <tr>
+    <td colspan="5"><input type="text" name="bottom" id="bottom" value="Dancing Calculator" disabled></td>
+    </tr>
+
+    </table>
+
+</form>
+
+<audio controls id="Groover">
+<source src="audio/Dayglow - Close to You (Official Video).mp3" type="audio/mpeg">
+</audio><br><br><br><br>
+
+<button id="b1" onclick="activateSound();">Activate Groover</button><br><br><br><br><br>
+
+<script src="index.js"></script>
+</body>
+</html>

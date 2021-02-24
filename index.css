@@ -143,3 +143,22 @@ body {
 #I-1 {
     width: 3rem;
 }
+
+#Groover {
+    display: none;
+    width: 0rem;
+}
+
+#b1 {
+    display: block;
+    margin: auto;
+    width: 11rem;
+    background-color: #ff7d03;
+    border: solid .2rem white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#b1:hover {
+    background-color: #a85405;
+}
