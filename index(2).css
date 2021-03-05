@@ -90,12 +90,12 @@ body {
 .heading {
     display: grid;
     text-align: center;
-    grid-template-rows: 17rem 0rem 8rem;
+    grid-template-rows: 17rem 0rem 0rem;
 }
 
 .footer {
-    display: grid; 
-    grid-template-columns: 35% repeat(3, 10%) 35%;
+    display: grid;
+    grid-template-columns: 35.5rem 10rem 10rem 10rem;
     grid-template-rows: 1rem;
 }
 
@@ -142,11 +142,11 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: 20rem 30rem 20rem;
     grid-template-rows: 1rem 34rem;
 }
 
-.fill-1 {
+.item-fill {
     grid-column: 1/1;
     grid-row: 2/2;
 }
@@ -161,7 +161,7 @@ body {
     grid-row: 2/2;
 }
 
-.fill-2 {
+.item-fill2 {
     grid-column: 4/4;
     grid-row: 2/2;
 }

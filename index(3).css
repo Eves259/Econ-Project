@@ -96,12 +96,12 @@ body {
 .heading {
     display: grid;
     text-align: center;
-    grid-template-rows: 17rem 2rem 8rem;
+    grid-template-rows: 17rem 0rem 0rem;
 }
 
 .footer {
     display: grid; 
-    grid-template-columns: 35% repeat(3, 10%) 35%;
+    grid-template-columns: 35.5rem 10rem 10rem 10rem;
     grid-template-rows: 1rem;
 }
 

@@ -54,9 +54,13 @@
 
     <td><input type="button" class="number" name="0" id="zero" value="0" onclick="calculator.display.value += '0'"></td>
 
-    <td><input type="button" name="equals" value="=" id="equals" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+    <td><input type="button" class="number" name="." id="dot" value="." onclick="calculator.display.value += '.'"></td>
 
     <td><input type="button" class="operator" name="divide" value="/" id="divide" onclick="calculator.display.value += '/'"></td>
+    </tr>
+
+    <tr>
+    <td colspan="4"><input style="width: 34rem;" type="button" name="equals" value="=" id="equals" onclick="calculator.display.value = eval(calculator.display.value)"></td>
     </tr>
 
     <tr>

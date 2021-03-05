@@ -80,6 +80,13 @@ input {
     font-size: 4rem;
 }
 
+#dot {
+    color: rgb(248, 130, 20);
+    background-color: black;
+    border: solid white .3rem;
+    font-size: 4rem;
+}
+
 #bottom {
     text-align: center;
     width: fit-content;
@@ -174,6 +181,12 @@ input {
 }
 
 #zero:hover {
+    width: 8.1rem;
+    height: 8.1rem;
+    cursor: pointer;
+}
+
+#dot:hover {
     width: 8.1rem;
     height: 8.1rem;
     cursor: pointer;
