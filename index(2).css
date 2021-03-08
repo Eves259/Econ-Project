@@ -95,7 +95,7 @@ body {
 
 .footer {
     display: grid;
-    grid-template-columns: 35.5rem 10rem 10rem 10rem;
+    grid-template-columns: 35.5rem 10rem 10rem 10rem 35.5rem;
     grid-template-rows: 1rem;
 }
 
@@ -142,7 +142,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 20rem 30rem 20rem;
+    grid-template-columns: 20rem 30rem 30rem 20rem;
     grid-template-rows: 1rem 34rem;
 }
 

@@ -101,7 +101,7 @@ body {
 
 .footer {
     display: grid; 
-    grid-template-columns: 35.5rem 10rem 10rem 10rem;
+    grid-template-columns: 35.5rem 10rem 10rem 10rem 35.5rem;
     grid-template-rows: 1rem;
 }
 
