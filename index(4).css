@@ -252,6 +252,7 @@ input {
     font-size: 2.5rem;
     font-family: font;
     outline: none;
+    border: white .3rem solid;
 }
 
 .animation {
