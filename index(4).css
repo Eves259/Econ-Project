@@ -1,9 +1,13 @@
+* {
+    outline: none;
+}
+
 body {
-    margin: 0;
     background-color: #387774;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg fill-opacity='0.75'%3E%3Ccircle fill='%23387774' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%232f5e5c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23264745' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%231c302f' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23131c1b' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23000000' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
 table {
@@ -13,12 +17,6 @@ table {
     border: solid .5rem rgb(22, 127, 247);
     width: 22rem;
     height: 18rem;
-    animation-name: dance;
-    animation-iteration-count: infinite;
-    animation-duration: 4.7s;
-    animation-delay: 2s;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
 }
 
 input {
@@ -253,10 +251,21 @@ input {
     color:  rgb(248, 130, 20);
     font-size: 2.5rem;
     font-family: font;
+    outline: none;
+}
+
+.animation {
+    animation-name: dance;
+    animation-iteration-count: infinite;
+    animation-duration: 4.7s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+.animation-2 {
     animation-name: wiggle;
     animation-iteration-count: infinite;
     animation-duration: 4.7s;
-    animation-delay: 2s;
     animation-timing-function: ease-out;
     animation-direction: alternate;
 }
