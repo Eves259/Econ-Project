@@ -11,6 +11,7 @@ function pause() { //This pauses music and is used in the activateSoundfunction 
 function activateSound() { //This function is linked to a button. When the button is pressed it plays music and when it is pressed again it pauses the music. It uses the play and pause functions to do this.
     $('table').addClass('animation');
     $('#b1').addClass('animation-2');
+    $('#b2').addClass('animation-3');
     if (sound.paused) {
         sound.play();
     } else {

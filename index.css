@@ -112,7 +112,7 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 10rem;
 }
 
 #I-1 {
